@@ -1,0 +1,21 @@
+const db = require("../models");
+const axios = require("axios");
+
+// Defining methods for the articlesController
+module.exports = {
+    findAll: function (req, res) {
+        console.log(req.body);
+    //     const params = Object.assign({
+    //             api_key: "9b3adf57854f4a19b7b5782cdd6e427a"
+    //         },
+    //         req.query
+    //     );
+    //     axios
+    //         .get("https://api.nytimes.com/svc/search/v2/articlesearch.json", {
+    //             params
+    //         })
+    //         .then(response => {
+    //             console.log(response.data);
+    //         });
+    }
+};
